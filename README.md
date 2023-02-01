@@ -1,4 +1,4 @@
 # todo-project
 
 
-![wireframe ](/images/wireframe%20.jpg)
+![wireframe ](/images/wireframe.jpg)
