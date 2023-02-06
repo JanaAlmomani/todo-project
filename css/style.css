@@ -25,16 +25,23 @@ header nav a {
 }
     header img {
         width: 58px;
+
         position:static;
+
         margin: 10;
         border: blanchedalmond;
         float: left;
     }
     main h1{
         text-align: center;
+
         color:rgb(56, 25, 56);
+<<<<<<< HEAD
         font-size: x-large;
         margin: 5px;
+=======
+
+>>>>>>> a18fedab5c2ffc7aa5ed51c7372fc12533cc2f39
         
 
     }
@@ -50,10 +57,17 @@ header nav a {
         width: 600px;
         height: 300px;
          
+<<<<<<< HEAD
+=======
+        border-collapse: collapse;
+
+
+>>>>>>> a18fedab5c2ffc7aa5ed51c7372fc12533cc2f39
 }
         
     
     table, th ,td {
+
         border: 2px solid;
         font-size: larger;  
         padding: 30px;
@@ -66,6 +80,17 @@ header nav a {
       }
       table,td {
         border-bottom: rgb(26, 15, 25) 2px double;
+
+        border: 1px solid;
+        width: 20px;
+        height: 19px;
+      }
+     table th{
+        height: 7px;
+      }
+      table,td {
+        text-align: center;
+
       }
       footer {
         background-color: REBECCAPURPLE;
@@ -86,10 +111,35 @@ header nav a {
         text-align: center;
         color: white;
       }
+<<<<<<< HEAD
 
+=======
+      main h1 {
+       
+        font-size: x-large;
+
+        margin: 5px;
+    }
+    
+    th, td {
+        padding: 15px;
+        text-align: left;
+        width: 600px;
+    }
+>>>>>>> a18fedab5c2ffc7aa5ed51c7372fc12533cc2f39
    td:hover{
     color:rgb(7, 5, 6);
     background-color:  rgb(72, 42, 97);
 
     }
    
+
+    }
+    main h1 {
+        margin: 5px;
+    }
+    th, td {
+        padding: 15px;
+        text-align: left;
+    }
+
