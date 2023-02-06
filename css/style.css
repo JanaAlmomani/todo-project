@@ -30,14 +30,18 @@ header nav a {
 }
     header img {
         width: 58px;
+
         position:static;
+
         margin: 10;
         border: blanchedalmond;
         float: left;
     }
     main h1{
         text-align: center;
+
         color:rgb(56, 25, 56);
+
         
 
     }
@@ -54,10 +58,13 @@ header nav a {
         height: 300px;
          
         border-collapse: collapse;
+
+
 }
         
     
     table, th ,td {
+
         border: 2px solid;
         font-size: larger;  
         padding: 30px;
@@ -72,6 +79,17 @@ header nav a {
       table,td {
         text-align: center;
         border-bottom: rgb(26, 15, 25) 2px double;
+
+        border: 1px solid;
+        width: 20px;
+        height: 19px;
+      }
+     table th{
+        height: 7px;
+      }
+      table,td {
+        text-align: center;
+
       }
       footer {
         background-color: REBECCAPURPLE;
@@ -95,6 +113,7 @@ header nav a {
       main h1 {
        
         font-size: x-large;
+
         margin: 5px;
     }
     
@@ -109,3 +128,13 @@ header nav a {
 
     }
    
+
+    }
+    main h1 {
+        margin: 5px;
+    }
+    th, td {
+        padding: 15px;
+        text-align: left;
+    }
+
