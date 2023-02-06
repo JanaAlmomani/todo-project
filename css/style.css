@@ -3,30 +3,25 @@
 }
 body{
     background-color: rgb(214, 207, 235);
-    display: flex;
-    flex-direction: column;}
-    
-    header {
+
+}
+header {
         background-color:REBECCAPURPLE;
         height: 60px;
-        
+
     }
 
 
 header nav {
     font-family: 'Itim', cursive;
-   
-   
     padding: 20px 10px;
   
-}
-header nav a {
-    margin-left: 100px;
 }
 header nav a {
     color: white;
     font-size: 20px;
     text-decoration: none;
+    margin-left: 100px;
 }
     header img {
         width: 58px;
@@ -41,7 +36,12 @@ header nav a {
         text-align: center;
 
         color:rgb(56, 25, 56);
+<<<<<<< HEAD
+        font-size: x-large;
+        margin: 5px;
+=======
 
+>>>>>>> a18fedab5c2ffc7aa5ed51c7372fc12533cc2f39
         
 
     }
@@ -57,9 +57,12 @@ header nav a {
         width: 600px;
         height: 300px;
          
+<<<<<<< HEAD
+=======
         border-collapse: collapse;
 
 
+>>>>>>> a18fedab5c2ffc7aa5ed51c7372fc12533cc2f39
 }
         
     
@@ -68,8 +71,7 @@ header nav a {
         border: 2px solid;
         font-size: larger;  
         padding: 30px;
-        color:rgb(104, 48, 104);
-      }
+    }
      table th{
         height: 7px;
         text-align: center;
@@ -77,7 +79,6 @@ header nav a {
         background-color: rgb(146, 94, 167);
       }
       table,td {
-        text-align: center;
         border-bottom: rgb(26, 15, 25) 2px double;
 
         border: 1px solid;
@@ -110,6 +111,9 @@ header nav a {
         text-align: center;
         color: white;
       }
+<<<<<<< HEAD
+
+=======
       main h1 {
        
         font-size: x-large;
@@ -122,6 +126,7 @@ header nav a {
         text-align: left;
         width: 600px;
     }
+>>>>>>> a18fedab5c2ffc7aa5ed51c7372fc12533cc2f39
    td:hover{
     color:rgb(7, 5, 6);
     background-color:  rgb(72, 42, 97);
