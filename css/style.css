@@ -36,12 +36,9 @@ header nav a {
         text-align: center;
 
         color:rgb(56, 25, 56);
-<<<<<<< HEAD
+
         font-size: x-large;
         margin: 5px;
-=======
-
->>>>>>> a18fedab5c2ffc7aa5ed51c7372fc12533cc2f39
         
 
     }
@@ -57,12 +54,6 @@ header nav a {
         width: 600px;
         height: 300px;
          
-<<<<<<< HEAD
-=======
-        border-collapse: collapse;
-
-
->>>>>>> a18fedab5c2ffc7aa5ed51c7372fc12533cc2f39
 }
         
     
@@ -111,9 +102,6 @@ header nav a {
         text-align: center;
         color: white;
       }
-<<<<<<< HEAD
-
-=======
       main h1 {
        
         font-size: x-large;
@@ -126,14 +114,9 @@ header nav a {
         text-align: left;
         width: 600px;
     }
->>>>>>> a18fedab5c2ffc7aa5ed51c7372fc12533cc2f39
    td:hover{
     color:rgb(7, 5, 6);
     background-color:  rgb(72, 42, 97);
-
-    }
-   
-
     }
     main h1 {
         margin: 5px;
