@@ -3,6 +3,7 @@
 var yourName;
 var yourGender;
 var yourAge;
+let a1,a2,a3;
 // Ask the user to enter his/her name as input.
  yourName=prompt(" Enter your name: ");
 if (yourName == ""){
@@ -36,12 +37,7 @@ if (yourGender == ""){
     if ( yourAge ==""){
         yourAge="invalid";
     }
- /*
-    Alert a welcoming message with the name of the user and the title Mr 
-    if the user is male and Ms if the user is female,
-     and if the gender input is not correct 
-     alert the welcoming message without the title, according to the confirmation.
-*/
+ 
 let confirmAction = confirm("Are you sure to skip the welcoming message?");
     if(confirmAction){
         alert("Action successfully executed");
@@ -58,19 +54,27 @@ let confirmAction = confirm("Are you sure to skip the welcoming message?");
         }
         // As a user, I would like to answer more questions,
         //  so you should add new three (Yes/No) questions.
-        function question(){
-            confirm( yourName+" Are you happay with our app");
-            confirm(yourName+" Do you have any question");
-            confirm(yourName+" Do you have any suggestion");
-        }   
+        
+            a1=prompt( yourName+" Are you happay with our app");
+            a2=prompt(yourName+" Do you have any question");
+            a3=prompt(yourName+" Do you have any suggestion");
+            if(a1==""){
+                a1="invalid";
+            }else if(a2==""){
+                a2="invalid";
+            }else if(a3==""){
+            a2="invalid";}
+        
        
 
-        let array=[yourName,yourGender,yourAge];
+        let array=[yourName,yourGender,yourAge,a1,a2,a3];
+        function displayAnswer(arr)
+        {
             for(let i=0; i<array.length;i++)
 
             {
                 console.log(array[i]);
             }
-        
-          question();
+        }
+        displayAnswer(array);
        
