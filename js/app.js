@@ -56,16 +56,16 @@ let confirmAction = confirm("Are you sure to skip the welcoming message?");
         //  so you should add new three (Yes/No) questions.
         
             a1=prompt( yourName+" Are you happay with our app");
+                 if(a1==""){
+                      a1="invalid";}
             a2=prompt(yourName+" Do you have any question");
+                if(a2==""){
+                     a2="invalid";}
             a3=prompt(yourName+" Do you have any suggestion");
-            if(a1==""){
-                a1="invalid";
-            }else if(a2==""){
-                a2="invalid";
-            }else if(a3==""){
-            a2="invalid";}
-        
-       
+                if(a3==""){
+                    a3="invalid";}
+                
+    
 
         let array=[yourName,yourGender,yourAge,a1,a2,a3];
         function displayAnswer(arr)
